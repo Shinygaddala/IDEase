@@ -1,0 +1,213 @@
+/* ===== STUDENT PAGE ===== */
+
+.student-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: linear-gradient(135deg, #e6f2ff, #ffffff);
+    padding: 20px;
+  }
+  
+  /* CARD */
+  .student-card {
+    width: 380px;
+    background: white;
+  
+    padding: 30px;
+    border-radius: 18px;
+  
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+    transition: 0.3s ease;
+  }
+  
+  .student-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* TITLE */
+  .student-card h2 {
+    margin-bottom: 20px;
+    color: #1f3a5f;
+  }
+  
+  /* INPUTS */
+  .student-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  
+    font-size: 14px;
+  
+    transition: 0.3s ease;
+  }
+  
+  .student-card input:focus {
+    outline: none;
+    border-color: #305174;
+    box-shadow: 0 0 8px rgba(48, 81, 116, 0.2);
+  }
+  
+  /* BUTTON */
+  .student-card button {
+    width: 100%;
+    padding: 12px;
+  
+    margin-top: 15px;
+  
+    border: none;
+    border-radius: 10px;
+  
+    background: #305174;
+    color: white;
+  
+    font-size: 15px;
+    font-weight: 600;
+  
+    cursor: pointer;
+  
+    transition: 0.3s ease;
+  }
+  
+  .student-card button:hover {
+    background: #1f3a5f;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  }
+
+
+
+
+
+  /* ===== PERMISSION PAGE ===== */
+
+.permission-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    background: linear-gradient(135deg, #e6f2ff, #ffffff);
+  }
+  
+  .permission-card {
+    width: 420px;
+    background: white;
+  
+    padding: 25px;
+    border-radius: 18px;
+  
+    box-shadow: 0 12px 35px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .permission-card h2 {
+    margin-bottom: 15px;
+    color: #1f3a5f;
+  }
+  
+  .permission-card input {
+    width: 100%;
+    padding: 12px;
+  
+    border-radius: 10px;
+    border: 1px solid #ddd;
+  
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .permission-card input:focus {
+    outline: none;
+    border-color: #305174;
+    box-shadow: 0 0 8px rgba(48,81,116,0.2);
+  }
+  
+  .permission-card button {
+    width: 100%;
+    padding: 12px;
+  
+    background: #305174;
+    color: white;
+  
+    border: none;
+    border-radius: 10px;
+  
+    font-weight: 600;
+    cursor: pointer;
+  
+    transition: 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .permission-card button:hover {
+    background: #1f3a5f;
+    transform: translateY(-2px);
+  }
+  
+  /* SLIP */
+  .slip {
+    margin-top: 20px;
+    padding: 15px;
+  
+    border-radius: 12px;
+    background: #f7fbff;
+  
+    text-align: left;
+    border: 1px solid #dce9f7;
+  }
+  
+  .slip h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #305174;
+  }
+  
+  .slip p {
+    margin: 6px 0;
+    font-size: 14px;
+  }
+  
+  /* BUTTONS */
+  .slip-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .slip-buttons button {
+    flex: 1;
+    padding: 10px;
+  
+    background: #305174;
+    color: white;
+  
+    border: none;
+    border-radius: 8px;
+  
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .slip-buttons button:hover {
+    background: #1f3a5f;
+  }
+
+  .permission-card button:nth-child(3) {
+    background: #ff9800;
+  }
+  
+  .permission-card button:nth-child(3):hover {
+    background: #e68900;
+  }
+  
+  .permission-card button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+  }
