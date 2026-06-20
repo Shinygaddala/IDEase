@@ -75,11 +75,19 @@
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
 		<dependency>
-			<groupId>com.example</groupId>
-			<artifactId>UserRegisterAppli</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+    		<groupId>com.dis</groupId>
+    		<artifactId>DigitalIdSystem</artifactId>
+    		
 		</dependency>
+		
+		<dependency>
+    		<groupId>io.github.cdimascio</groupId>
+    		<artifactId>dotenv-java</artifactId>
+    		<version>3.0.0</version>
+		</dependency>
+	
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
@@ -93,6 +101,12 @@
 			<dependency>
     			<groupId>org.springframework.cloud</groupId>
     			<artifactId>spring-cloud-starter-config</artifactId>
+			</dependency>
+			
+			<dependency>
+    			<groupId>io.github.cdimascio</groupId>
+    			<artifactId>dotenv-java</artifactId>
+    			<version>3.0.0</version>
 			</dependency>
 			
 			<dependency>
